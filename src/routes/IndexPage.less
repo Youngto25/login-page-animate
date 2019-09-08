@@ -1,0 +1,105 @@
+.loginWrapper{
+  width: 438px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 0 auto;
+  z-index: 1;
+  .logo{
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
+  .loginTitle{
+    width: 398px;
+    .login{
+      color: #333333;
+      font-size: 28px;
+    }
+  }
+
+  .parts{
+    width: 398px;
+    display: flex;
+    justify-content: space-between;
+    span{
+      color: #999999;
+    }
+  }
+
+  .loginButton{
+    margin: 10px 0;
+    width: 396px;
+    height: 58px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    background-color: #0098bc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    .confirm{
+      color: #ffffff;
+      font-size: 28px;
+    }
+  }
+}
+
+*{
+  color: #000000;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner,
+.ant-checkbox-indeterminate .ant-checkbox-inner {
+  background-color: #0098bc;
+  border: 1px solid #0098bc;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner,
+.ant-checkbox-indeterminate .ant-checkbox-inner:hover {
+  background-color: #0098bc;
+  border: 1px solid #0098bc;
+}
+
+.basic{
+  margin: 10px 0;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 396px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.initRemind{
+  pointer-events:none;
+  font-size: 18px;
+  color: #999999;
+  width: 380px;
+  transition: all 200ms;
+  position: absolute;
+}
+
+.active3{
+  font-size: 12px;
+  transform: translateY(-15px);
+}
+
+.initInput{
+  height: 56px;
+  width: 396px;
+  opacity: 0;
+}
+
+.active4{
+  display: block;
+  height: 38px;
+  font-size: 18px;
+  width: 380px;
+  transform: translateY(10px);
+  opacity: 1;
+}
+
